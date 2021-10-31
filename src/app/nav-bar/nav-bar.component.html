@@ -1,0 +1,25 @@
+<div class="navBar">
+  <div class="logo">
+    <img class="image" src="assets/leo_logo_trans.png" alt="">
+    <div class="logoText">
+      <p>Leo Avramovic</p>
+      <hr>
+      <p>Developer</p>
+    </div>
+  </div>
+
+  <div class="navBarTitle" >
+    <p>MENU</p>
+    <div id="menu-bar">
+      <div id="menu" (click)="onClickMenu()" [ngClass]="menuIsClicked ? 'change' : 'menu'">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

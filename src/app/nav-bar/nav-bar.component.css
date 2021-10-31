@@ -1,0 +1,101 @@
+
+#menu {
+  z-index: 5;
+  width: 20px;
+  height: 20px;
+  margin: 30px 20px 20px 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.bar {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+
+.change .bar {
+  background-color: black;
+}
+
+.change #bar1 {
+  transform: translateY(2px) rotateZ(-45deg);
+}
+
+.change #bar3 {
+  transform: translateY(-2px) rotate(45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+
+.change {
+  display: block;
+}
+
+
+.navBarTitle {
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-end;
+  float: right;
+  margin: 30px 20px 20px 20px;
+}
+p{
+  margin-top: 12px;
+
+}
+.image{
+  margin-left: 50px;
+  width: 60px;
+  height: 60px;
+}
+.navBar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-end;
+
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-end;
+}
+.logoText {
+  font-size: 13px;
+  font-family: Arial, serif;
+  font-weight: lighter;
+  margin-left: 20px;
+  line-height: 50%;
+  letter-spacing: 2px;
+}
+#menu-bar{
+  transition: 1s ease-in-out;
+}
+#menu-bar:hover{
+  transform: rotate(360deg);
+}

@@ -1,0 +1,27 @@
+<div class="gesamt">
+  <div class="logo">
+    <img class="image" src="assets/lav_logo-trans_white.png" alt="">
+
+  </div>
+  <div class="navPage">
+    <div class="navBarTitle">
+      <div id="menu-bar">
+        <div id="menu" (click)="onClickMenu()" [ngClass]="menuIsClicked ? 'menu' : 'change'">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+      </div>
+    </div>
+    <div class="navPageLinks">
+      <p>menu</p>
+      <ul>
+        <li><a routerLink="/home" routerLinkActive="active">HOME</a></li>
+        <li><a routerLink="/about" routerLinkActive="active">ABOUT</a></li>
+        <li><a routerLink="/service" routerLinkActive="active">SERVICE</a></li>
+        <li><a routerLink="/education" routerLinkActive="active">SKILLS</a></li>
+        <li><a routerLink="/contact" routerLinkActive="active">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
