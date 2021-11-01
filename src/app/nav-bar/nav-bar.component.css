@@ -26,10 +26,6 @@
 }
 
 
-.change .bar {
-  background-color: black;
-}
-
 .change #bar1 {
   transform: translateY(2px) rotateZ(-45deg);
 }
@@ -99,3 +95,10 @@ p{
 #menu-bar:hover{
   transform: rotate(360deg);
 }
+.navText{
+  cursor: pointer;
+}
+.navBarTitle:hover {
+  color: grey;
+}
+

@@ -119,6 +119,7 @@ p {
 }
 #menu-bar:hover{
   transform: rotate(360deg);
+
 }
 .gesamt{
   background-color: black;
