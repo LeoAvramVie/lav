@@ -25,7 +25,7 @@ li {
   font-size: 5rem;
 }
 
-p {
+.menuPageTitle {
   color: white;
   display: flex;
   justify-content: center;
@@ -100,14 +100,12 @@ p {
 }
 
 .image {
+  z-index: 7;
   margin-left: 50px;
   width: 60px;
   height: 60px;
-  margin-bottom: -75px;
-  z-index: 1;
+  margin-bottom: -100px;
 }
-
-
 
 .navPage {
   margin-top: -20px;
@@ -124,9 +122,27 @@ p {
 }
 .gesamt{
   background-color: black;
+  margin-top: -25px;
 }
 
+.logoText{
+  float: left;
+  margin: 13px 0 0 130px;
+  font-size: 13px;
+  font-family: Arial, serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: white;
+  line-height: 50%;
+}
 
+.developerText{
+  margin-top: 15px;
+}
+.logoText{
+  z-index: 6;
+  margin-top: 40px;
+}
 
 @media screen and (min-width: 1800px) {
   ul {
@@ -138,3 +154,4 @@ p {
     font-size: 2rem;
   }
 }
+
